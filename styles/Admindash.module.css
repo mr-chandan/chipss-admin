@@ -25,8 +25,8 @@
   position: fixed;
   /* can be changed */
   min-height: 95vh;
-  left: -100%;
-  transition: .6s;
+  left: -1000%;
+  transition: .5s;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -68,6 +68,7 @@
   border-radius: 1.5rem;
   min-width: 95vw;
   min-height: 80vh;
+  padding: 2rem;
 }
 
 .mobile {
@@ -93,4 +94,5 @@
   color: white;
   letter-spacing: 1px;
   padding: 1rem;
+  cursor: pointer;
 }

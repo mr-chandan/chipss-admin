@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+.addb {
+  max-width: 10rem;
+  border-radius: 0.5rem;
+  background: rgb(108, 108, 108);
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.addname {
+  font-size: 2rem;
+}
+
+.addinp {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.addinp input {
+  min-height: 3rem;
+  max-width: 50%;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  outline: 4px solid rgb(107, 107, 107);
+}
+
+.file {
+  width: 3rem;
+}
+
+.btnadd {
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background: rgb(107, 107, 107);
+  font-weight: 900;
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+}
+
+.imgu {
+  width: 10rem;
+}
+
+.upbox {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 3rem;
+}
+
+.maingrid {
+  padding: 5rem;
+  font-family: "MonumentExtended-Ultrabold";
+}
+
+.sel {
+  background: gray;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-family: "MonumentExtended-Ultrabold";
+}
+
+
+.fix{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
